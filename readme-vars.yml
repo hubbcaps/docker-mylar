@@ -34,6 +34,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "27.08.20:", desc: "Adding unrar package to allow CBR conversion" }
   - { date: "19.12.19:", desc: "Rebasing to alpine 3.11." }
   - { date: "28.06.19:", desc: "Rebasing to alpine 3.10." }
   - { date: "08.05.19:", desc: "Re-install requests pip package to downgrade urllib version suitable for mylar." }

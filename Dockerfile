@@ -11,7 +11,8 @@ RUN \
  echo "**** install system packages ****" && \
  apk add --no-cache \
 	git \
-	nodejs && \
+	nodejs \
+	unrar && \
  echo "**** install pip packages ****" && \
  pip install --no-cache-dir -U \
 	comictagger==1.1.32rc1 \
